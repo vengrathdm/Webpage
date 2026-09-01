@@ -1,18 +1,22 @@
-# Vengrath Campaign Wiki
+# Vengrath — Kompendium Kampanii
 
-Polished, framework-free campaign wiki foundation based on the supplied markdown/component reference and visual CSS system.
+Polskojęzyczna, framework-free baza wiedzy dla kampanii RPG, oparta na dostarczonym systemie komponentów Markdown oraz inspirowanym nim języku wizualnym.
 
-## Stack
+## Założenia
 
-- Semantic HTML5
-- CSS custom properties, responsive layout, print styles
-- Vanilla JavaScript
-- No framework or build step
+- cały interfejs i dokumentacja po polsku;
+- semantyczny HTML5;
+- CSS oparty na zmiennych, responsywności i stylach do druku;
+- Vanilla JavaScript, bez frameworka i bez procesu budowania;
+- komponenty wiki przygotowane do wielokrotnego użycia;
+- brak dopisywania niepotwierdzonego lore — treść kampanii jest oddzielona od warstwy prezentacji.
 
-## Structure
+## Struktura
 
-- `index.html` — wiki shell and component examples
-- `styles.css` — theme, layout, components and responsive/print rules
-- `script.js` — theme toggle, navigation, copy/print/collapse utilities
+- `index.html` — polski interfejs kompendium i demonstracja komponentów;
+- `styles.css` — motyw, układ, typografia i komponenty;
+- `script.js` — motyw jasny/ciemny, nawigacja, drukowanie i zwijanie sekcji.
 
-The repository is intentionally a reusable template layer: campaign-specific lore can be added without changing the component system.
+## Kierunek rozwoju
+
+Docelowo repozytorium może zostać rozbudowane o indeks świata, kartoteki postaci, frakcje, lokacje, kronikę, oś czasu, zadania, spotkania, bestiariusz, magię, mapy, wyszukiwanie, powiązania między wpisami oraz rozdzielenie widoku Gracza i Mistrza Gry.
